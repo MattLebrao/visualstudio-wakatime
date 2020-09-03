@@ -68,7 +68,15 @@
         <Icon guid="guidImages" id="bmpWakatime" />
         <Strings>
           <CommandName>UpdateWakaTimeSettings</CommandName>
-          <ButtonText>Settings</ButtonText>
+          <ButtonText>Global Settings</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidWakaTimeCmdSet" id="cmdidUpdateSolKey" priority="0x0000" type="Button">
+        <Parent guid="guidWakaTimeCmdSet" id="SubMenuGroup" />
+        <Icon guid="guidImages" id="bmpWakatime" />
+        <Strings>
+          <CommandName>UpdateWakaTimeSolutionSettings</CommandName>
+          <ButtonText>Solution Settings</ButtonText>
         </Strings>
       </Button>
     </Buttons>
@@ -92,6 +100,7 @@
       <IDSymbol name="SubMenu" value="0x1100"/>
       <IDSymbol name="SubMenuGroup" value="0x1150"/>
       <IDSymbol name="cmdidUpdateAppKey" value="0x0100" />
+      <IDSymbol name="cmdidUpdateSolKey" value="0x0101" />
     </GuidSymbol>
     <GuidSymbol name="guidImages" value="{90dc44c1-4c0c-4480-bed7-80ec1b787a07}" >
       <IDSymbol name="bmpWakatime" value="1" />      

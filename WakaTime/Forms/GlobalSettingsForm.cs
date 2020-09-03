@@ -3,12 +3,12 @@ using System.Windows.Forms;
 
 namespace WakaTime.Forms
 {
-    public partial class SettingsForm : Form
+    public partial class GlobalSettingsForm : Form
     {
         private readonly Shared.ExtensionUtils.WakaTime _wakaTime;
         internal event EventHandler ConfigSaved;
 
-        public SettingsForm(ref Shared.ExtensionUtils.WakaTime wakaTime)
+        public GlobalSettingsForm(ref Shared.ExtensionUtils.WakaTime wakaTime)
         {
             _wakaTime = wakaTime;
             InitializeComponent();
