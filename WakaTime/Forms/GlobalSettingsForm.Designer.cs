@@ -1,6 +1,6 @@
 ﻿namespace WakaTime.Forms
 {
-    partial class SettingsForm
+    partial class GlobalSettingsForm
     {
 
         private System.Windows.Forms.Label lblAPIKey;
@@ -34,7 +34,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GlobalSettingsForm));
             this.lblAPIKey = new System.Windows.Forms.Label();
             this.txtAPIKey = new System.Windows.Forms.TextBox();
             this.btnOk = new System.Windows.Forms.Button();
